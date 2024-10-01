@@ -1,27 +1,24 @@
-# 1. request user input for Triathlon timings
-# 2. for swimming, cycling and running in minutes
-# 3. add all the numbers and print total
-# 4. added conditions for qualifying time 
+# 1. Request user input for triathlon timings
+# 2. Get the timings for swimming, cycling, and running in minutes
 
-# steps 1, 2
-swimming = int(input('Enter swim time in minutes: '))
-cycling = int(input('Enter cycling time in minutes: '))
-running = int(input('Enter running time in minutes: '))
+swimming = int(input('Enter swim time in minutes: '))  # Input swim time and convert to integer
+cycling = int(input('Enter cycling time in minutes: '))  # Input cycling time and convert to integer
+running = int(input('Enter running time in minutes: '))   # Input running time and convert to integer
 
-# step 3
-triathlon = (swimming + cycling + running)
-print(f'Total triathlon time in minutes: {triathlon}')
+# 3. Add all the numbers to calculate the total triathlon time and print it
+triathlon = (swimming + cycling + running)  # Calculate total time
+print(f'Total triathlon time in minutes: {triathlon}')  # Print total time
 
-# step 4
-qualifying_time = triathlon
-if 0 <= qualifying_time <= 100:
-    print('Qualifying Award for participant is Provincial colours')
-     
-elif 101 <= qualifying_time <= 105:
-    print ('Qualifying Award for participant is Provincial half colours')
+# 4. Check the total time against qualifying conditions
+qualifying_time = triathlon  # Store total time in qualifying_time variable
+if 0 <= qualifying_time <= 100:  # Check if qualifying time is 100 minutes or less
+    print('Qualifying Award for participant is Provincial colours')  # Award for top performance
+    
+elif 101 <= qualifying_time <= 105:  # Check if qualifying time is between 101 and 105 minutes
+    print('Qualifying Award for participant is Provincial half colours')  # Award for good performance
 
-elif 106 <= qualifying_time <= 111:
-    print('Qualifying Award for participant is Provincial scroll')
+elif 106 <= qualifying_time <= 111:  # Check if qualifying time is between 106 and 111 minutes
+    print('Qualifying Award for participant is Provincial scroll')  # Award for average performance
 
-else:
-    print('No award')
+else:  # If the qualifying time is greater than 111 minutes
+    print('No award')  # No award given for times above 111 minutes
