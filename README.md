@@ -8,7 +8,9 @@ Created and managed a GitHub account, and installed Git for version control.
 
 Python Programming 🐍:
 Iterations 🔗: Mastered loops and iterative structures.
+
 Functions 🧩⚙: Learned how to define and use functions for efficient and reusable code.
+
 Data Types and Conditionals 🧱🔧🔨: Worked with different data types, and implemented logical conditions.
 File I/O, Strings, Lists, and Dictionaries 📂📃📑: Gained proficiency in reading, writing, and manipulating files, as well as handling complex data structures.
 Object-Oriented Programming 🅾⭕🅿: Built modular programs using classes and objects.
