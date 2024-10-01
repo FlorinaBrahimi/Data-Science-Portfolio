@@ -22,7 +22,3 @@ This portfolio showcases my ongoing journey in learning Python, Data Science, an
 
 I continue to learn and grow as an intern, regularly updating this portfolio as I progress through my learning journey... 🙂🙂🙂
 """
-
-# Open a text file in write mode
-with open('portfolio.txt', 'w', encoding='utf-8') as f:
-    f.write(formatted_text)  # Write the formatted text to the file
