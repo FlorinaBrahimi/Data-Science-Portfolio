@@ -1,22 +1,28 @@
-"""Program to read a short string and re-create each alternate characters as upper and lower case;
-and part two, re-creates each alternative word as lower and upper case."""
+""" 
+Program to read a short string and re-create each alternate character as upper and lower case;
+and part two, re-creates each alternative word as lower and upper case.
+"""
 
-# get a short sentence and store as short_string variable
+# Get a short sentence from the user and store it in the variable 'short_string'
 short_string = input('Enter a short sentence: ')
-print(f'You entered - "{short_string}" \n') #print to show captured string and add new line
+# Print the captured string to show what the user entered, adding a new line for clarity
+print(f'You entered - "{short_string}" \n') 
 
-# using the enumerate() assign indexes
+# Use the enumerate() function to assign indexes to each character in the string
 string_enm = enumerate(short_string)
 
-# using an if...else and a for loop, convert even charaters to lowercase and odd to uppercase
+# Using an if...else statement within a for loop, convert even characters to lowercase and odd characters to uppercase
 string_alt = ''.join([a.lower() if i % 2 else a.upper() for i, a in enumerate(short_string)])
-print(f'We recreated - "{string_alt}" \n') #print output with alternate upper & lower characters
+# Print the output showing the recreated string with alternate upper and lower case characters
+print(f'We recreated - "{string_alt}" \n') 
 
 # Part two
-# split sentence for next task, convert into iterable list of items and enumerate it
+# Split the original sentence into words, creating an iterable list of items
 string_sp = short_string.split()
+# Enumerate the list of words to access both index and word
 string_sp_enu = enumerate(string_sp)
 
-# using an if...else and a for loop, convert even items to uppercase and odd to lowercase
+# Using an if...else statement within a for loop, convert even indexed words to uppercase and odd indexed words to lowercase
 string_up = ' '.join([b.upper() if i % 2 else b.lower() for i, b in enumerate(string_sp)])
-print(f'And again - "{string_up}"') #print output showing alternate lower & upper case joined words
+# Print the output showing the recreated string with alternate lower and upper case words
+print(f'And again - "{string_up}"') 
