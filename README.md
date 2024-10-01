@@ -19,5 +19,4 @@ This portfolio showcases my ongoing journey in learning Python, Data Science, an
 - **Datasets and DataFrames 💽📼🏷🗃:** Worked with large datasets, manipulating them using libraries like pandas.
 - **Data Analysis and Visualization 📊📈:** Performed data analysis and presented insights through visualizations using tools like matplotlib and seaborn.
 
-I continue to learn and grow as an intern, regularly updating this portfolio as I progress through my learning journey... 🙂🙂🙂
 """
