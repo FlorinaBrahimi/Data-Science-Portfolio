@@ -12,8 +12,12 @@ Iterations 🔗: Mastered loops and iterative structures.
 Functions 🧩⚙: Learned how to define and use functions for efficient and reusable code.
 
 Data Types and Conditionals 🧱🔧🔨: Worked with different data types, and implemented logical conditions.
+
 File I/O, Strings, Lists, and Dictionaries 📂📃📑: Gained proficiency in reading, writing, and manipulating files, as well as handling complex data structures.
+
 Object-Oriented Programming 🅾⭕🅿: Built modular programs using classes and objects.
+
 Data Science 📚📦📇💳🧬:
 Datasets and DataFrames 💽📼🏷🗃: Worked with large datasets, manipulating them using libraries like pandas.
+
 Data Analysis and Visualization 📊📈: Performed data analysis and presented insights through visualizations using tools like matplotlib and seaborn.
