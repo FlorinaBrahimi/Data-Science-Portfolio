@@ -1,13 +1,12 @@
-# request user to input name
-# print user name in separate line
-# request user to input age
-# print user age on new line
-# print string 'Hello World!' after user age 
+# Request user to input their name and store it in the variable 'name'
+name = input("Enter your Name: ")
+# Print the user's name on a separate line
+print(name)
 
-name = input ("Enter your Name: ")
-print (name)
+# Request user to input their age and store it in the variable 'age'
+age = input("Enter your Age: ")
+# Print the user's age on a new line
+print(age)
 
-age = input ("Enter your Age: ")
-print (age)
-
-print ("Hello World!")
+# Print the string 'Hello World!' after displaying the user's age
+print("Hello World!")
