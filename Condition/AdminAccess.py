@@ -1,8 +1,8 @@
-username = input('Enter Username')
+# Prompt the user to enter a username
+username = input('Enter Username: ')
 
-if username=='john' or username=='smith':
-    print('Authorised')
+# Check if the entered username is either 'john' or 'smith'
+if username == 'john' or username == 'smith':
+    print('Authorised')  # Print authorized message if the username matches
 else:
-    print('Not Authorised')
-
-    
+    print('Not Authorised')  # Print not authorized message for any other username
