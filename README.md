@@ -1,6 +1,6 @@
 # Python and Data Science Technical Portfolio
 
-This portfolio showcases my ongoing journey in learning Python, Data Science, and Machine Learning. I’m grateful to the HyperionDev team for their support in helping me achieve my goals.
+This portfolio presents my ongoing journey in learning Python, Data Science, and Machine Learning. I’m grateful to the HyperionDev team for their support in helping me achieve my goals.
 
 ## Overview
 
