@@ -16,6 +16,6 @@ This portfolio presents my ongoing journey in learning Python, Data Science, and
 - **Object-Oriented Programming 🅾⭕🅿:** Built modular programs using classes and objects.
 
 ### Data Science 📚📦📇💳🧬:
-- **Datasets and DataFrames 💽📼🏷🗃:** Worked with large datasets, manipulating them using libraries like pandas.
+- **Datasets and DataFrames 💽📼🏷🗃:** Worked with large datasets, manipulating them using libraries such as pandas.
 - **Data Analysis and Visualization 📊📈:** Performed data analysis and presented insights through visualizations using tools like matplotlib and seaborn.
 
